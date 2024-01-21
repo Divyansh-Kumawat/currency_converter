@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: rgb(252, 252, 252);
+    font-style: italic;
+}
+
+body{
+
+   background-color:#10002b ;
+   text-align: center;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: #240046;
+}
+
+
+.container{
+    background-color: #240046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    width: 100vw;
+    border-radius: 50%;
+}
+.image{
+    margin: 0 32vh;
+height: 5vh;
+width: 5vh;}
+
+form{
+    background-color: #3c096c;
+    height: 100%;
+    width: 60%;
+    border-radius: 50%;
+    text-align: center;
+}
+.amount{
+    font-size: 2rem;
+    margin: 2vh;
+}
+input{
+    height: 5vh;
+    width: 60%;
+    border-radius: 10px;
+    color: black;
+    
+    border: 5px solid;
+    border-color: #c77dff;
+}
+
+.dropdown{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8vh;
+  font-size: 2rem;
+  padding: 4vh;
+}
+
+.sel{
+    height: 4vh;
+  width: 9vh;
+  color: black;
+  background-color: #e0aaff;
+}
+option{
+    color: black;
+    background-color: #e0aaff;
+}
+form button{
+    background-color: #e0aaff;
+    color: #3c096c;
+    height: 2rem;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.msg{
+    padding: 20px;
+}
